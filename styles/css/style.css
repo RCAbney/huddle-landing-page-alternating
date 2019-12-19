@@ -1,0 +1,427 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #808d99;
+  line-height: 1.5;
+  background-image: url("../../images/bg-hero-mobile.svg");
+  background-color: #ebfbff;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+p,
+a {
+  text-decoration: none;
+  font-size: 0.777rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #00252e;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.hidden:focus {
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  width: auto;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.333rem 0.833rem;
+}
+
+.brand-logo {
+  max-width: 105px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introduction {
+  padding-left: 1.39rem;
+  padding-right: 1.39rem;
+}
+.introduction p {
+  margin-bottom: 2rem;
+  color: #00252e;
+}
+.introduction .product-image {
+  margin-top: 3.111rem;
+  margin-bottom: 0;
+}
+.introduction .wrapper {
+  padding-bottom: 2rem;
+}
+
+.content {
+  background-color: #fff;
+  padding-top: 1.111rem;
+}
+
+.product-image {
+  margin-bottom: 3.332rem;
+  margin-top: 1.666rem;
+  align-self: center;
+}
+
+.card {
+  background-color: #fff;
+  margin: 2.222rem 1.111rem;
+  padding: 1.666rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0.66rem rgba(0, 0, 0, 0.1);
+}
+
+.card-community {
+  padding: 2.333rem 0;
+  z-index: 5;
+  position: relative;
+  box-shadow: 0 0 0.66rem rgba(0, 0, 0, 0.1);
+  margin: 6rem 0.833rem -3.66rem 0.833rem;
+}
+
+.btn {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  color: #ebfbff;
+  font-weight: 700;
+  font-size: 0.55rem;
+  border: 0;
+  border-radius: 10rem;
+}
+
+.btn-signup {
+  padding: 0.33rem 1.333rem;
+  color: #00252e;
+  background-color: #fff;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn-register {
+  padding: 0.66rem 3.333rem;
+  background-color: #ff52bf;
+}
+
+footer {
+  text-align: left;
+  background-color: #00252e;
+  color: #ebfbff;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+footer a {
+  color: inherit;
+  font-size: 0.89rem;
+  margin-bottom: 0;
+}
+footer .brand-logo {
+  max-width: 160px;
+  margin-bottom: 1.666rem;
+}
+footer li {
+  margin-bottom: 0.66rem;
+}
+
+.copyright {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 0.66rem;
+}
+
+ul.social-icons {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ul.social-icons li {
+  padding: 0;
+  margin-bottom: 0;
+}
+ul.social-icons li:last-child a {
+  margin: 0;
+}
+ul.social-icons li a {
+  text-align: center;
+  display: inline-flex;
+  color: #ebfbff;
+  font-size: 1rem;
+  border: 1px solid #ebfbff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.66rem;
+  text-decoration: none;
+}
+
+.contact-location {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-icon {
+  height: 1rem;
+  width: auto;
+  align-self: flex-start;
+  margin-top: 0.3rem;
+  margin-right: 1.3rem;
+}
+
+.contact-links {
+  white-space: normal;
+}
+
+.contact-email:before,
+.contact-phone:before {
+  margin-right: 1rem;
+  vertical-align: -15%;
+  white-space: normal;
+}
+
+.contact-phone:before {
+  content: url("../../images/icon-phone.svg");
+}
+
+.contact-email:before {
+  content: url("../../images/icon-email.svg");
+}
+
+@media screen and (min-width: 376px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .wrapper {
+    padding: 3.35rem 4.35rem;
+  }
+
+  header {
+    margin-bottom: 5.5rem;
+  }
+
+  .brand-logo {
+    max-width: 215px;
+  }
+
+  .btn-sign-up {
+    font-size: 1.1rem;
+    padding: 1.2rem 4.2rem;
+    box-shadow: 0 2px 8px #130e20;
+  }
+}
+@media screen and (min-width: 850px) {
+  body {
+    background-image: url("../../images/bg-desktop.svg");
+    background-size: cover;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .product-image {
+    margin-right: 3.6rem;
+  }
+
+  .social-icons ul {
+    justify-content: flex-end;
+  }
+  .social-icons ul li {
+    padding: 0;
+  }
+  .social-icons ul li:last-child a {
+    margin: 0;
+  }
+  .social-icons ul li a {
+    font-size: 1.3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  body {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
