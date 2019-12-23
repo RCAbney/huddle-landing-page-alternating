@@ -458,12 +458,10 @@ ul.social-icons li a {
     max-width: 40%;
     margin-right: 4rem;
   }
-  .introduction .wrapper .product-image {
-    margin: 0;
-  }
 
   .product-image {
     max-width: 60%;
+    margin: 0;
   }
 
   .card {
