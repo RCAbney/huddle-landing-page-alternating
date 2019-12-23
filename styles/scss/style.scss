@@ -128,18 +128,6 @@ header {
   margin: 6rem 0.833rem -3.66rem 0.833rem;
 }
 
-// .product-copy {
-//   margin: 2.6rem auto 0 auto;
-//   max-width: 530px;
-//   h1 {
-//     margin-bottom: 1.4rem;
-//   }
-//   p {
-//     line-height: 1.65;
-//     opacity: 0.9;
-//   }
-// }
-
 .btn {
   font-family: $font-body;
   display: inline-block;
@@ -161,18 +149,6 @@ header {
   padding: 0.66rem 3.333rem;
   background-color: $brand-primary;
 }
-
-// .btn-sign-up {
-//   margin-top: 1.8rem;
-//   font-size: 0.8rem;
-//   color: purple;
-//   padding: 1rem 5rem;
-//   background-color: #fdfdfd;
-//   border: 0;
-//   border-radius: 10rem;
-//   box-shadow: 0 2px 4px hsl(257, 40%, 9%);
-//   display: inline-block;
-// }
 
 footer {
   text-align: left;
@@ -282,12 +258,6 @@ ul.social-icons {
   .brand-logo {
     max-width: 215px;
   }
-
-  .btn-sign-up {
-    font-size: 1.1rem;
-    padding: 1.2rem 4.2rem;
-    box-shadow: 0 2px 8px hsl(257, 40%, 9%);
-  }
 }
 
 @media screen and (min-width: 850px) {
@@ -301,9 +271,6 @@ ul.social-icons {
     justify-content: space-between;
   }
 
-  .product-image {
-    margin-right: 3.6rem;
-  }
   .social-icons {
     ul {
       justify-content: flex-end;
@@ -324,5 +291,134 @@ ul.social-icons {
   }
   body {
     text-align: left;
+  }
+  .card-community {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.333rem;
+  }
+  .brand-logo {
+    max-width: 205px;
+  }
+
+  .btn {
+    font-size: 0.888rem;
+  }
+
+  .btn-signup {
+    padding: 0.666rem 3.777rem;
+  }
+
+  .introduction {
+    margin-bottom: 1.666rem;
+  }
+
+  .introduction .wrapper {
+    display: flex;
+    align-items: center;
+    .product-copy {
+      max-width: 40%;
+      margin-right: 4rem;
+    }
+    .product-image {
+      margin: 0;
+    }
+  }
+
+  .product-image {
+    max-width: 60%;
+  }
+
+  .card {
+    border-radius: 16px;
+  }
+  .wrapper.card {
+    max-width: 1235px;
+    margin: 0 auto 2.222rem auto;
+    display: flex;
+    align-items: center;
+    padding: 2.222rem;
+    .product-copy {
+      max-width: 50%;
+      margin-left: 8.222rem;
+    }
+    .product-image {
+      padding-left: 4.666rem;
+      max-width: 40%;
+    }
+  }
+
+  .card:first-child {
+    margin-top: 7.777rem;
+  }
+
+  .card:nth-child(odd) {
+    .product-image {
+      order: 2;
+      padding-left: 0;
+    }
+    .product-copy {
+      padding-left: 4.666rem;
+      margin-right: 8.222rem;
+      margin-left: 0;
+    }
+  }
+  .card.card-community {
+    max-width: 805px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9rem;
+    padding: 2.888rem;
+    h3 {
+      font-size: 1.555rem;
+      margin-bottom: 1.666rem;
+    }
+  }
+  .btn-register {
+    padding: 1.777rem 5.666rem;
+    box-shadow: 0 4px 0.5rem rgba(0, 0, 0, 0.2);
+  }
+
+  footer {
+    margin-top: -7.5rem;
+    .brand-logo {
+      max-width: 242px;
+      margin-bottom: 2.555rem;
+    }
+    .wrapper {
+      max-width: 1235px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .contact-links {
+    p,
+    a {
+      font-size: 0.777rem;
+    }
+  }
+  .footer-links {
+    display: flex;
+    //justify-content: space-between;
+    & > * {
+      max-width: 40%;
+      padding-right: 8rem;
+    }
+  }
+  ul.social-icons {
+    margin-top: 0;
+  }
+  .copyright {
+    float: right;
   }
 }
