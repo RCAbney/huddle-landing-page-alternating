@@ -321,6 +321,10 @@ ul.social-icons {
 
   .introduction {
     margin-bottom: 1.666rem;
+    .btn-register {
+      padding: 1rem 4rem;
+      font-size: 0.888rem;
+    }
   }
 
   .introduction .wrapper {
@@ -385,7 +389,8 @@ ul.social-icons {
     }
   }
   .btn-register {
-    padding: 1.777rem 5.666rem;
+    padding: 1.2rem 5.666rem;
+    font-size: 1rem;
     box-shadow: 0 4px 0.5rem rgba(0, 0, 0, 0.2);
   }
 
